@@ -1,0 +1,162 @@
+{
+  "fields": [
+    {
+      "name": "",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "artist_name",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "track_name",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "release_date",
+      "type": "year",
+      "format": "default"
+    },
+    {
+      "name": "genre",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "lyrics",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "len",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "dating",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "violence",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "world/life",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "night/time",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "shake the audience",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "family/gospel",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "romantic",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "communication",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "obscene",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "music",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "movement/places",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "light/visual perceptions",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "family/spiritual",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "like/girls",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "sadness",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "feelings",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "danceability",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "loudness",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "acousticness",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "instrumentalness",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "valence",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "energy",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "topic",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "age",
+      "type": "number",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

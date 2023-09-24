@@ -1,0 +1,298 @@
+{
+  "columns": [
+    {
+      "width": 53,
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false
+    },
+    {
+      "field": "",
+      "title": "",
+      "width": 62,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "artist_name",
+      "title": "artist_name",
+      "width": 154,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "track_name",
+      "title": "track_name",
+      "width": 168,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "release_date",
+      "title": "release_date",
+      "width": 154,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "genre",
+      "title": "genre",
+      "width": 217,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "lyrics",
+      "title": "lyrics",
+      "width": 7548,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "len",
+      "title": "len",
+      "width": 77,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "dating",
+      "title": "dating",
+      "width": 195,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "violence",
+      "title": "violence",
+      "width": 184,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "world/life",
+      "title": "world/life",
+      "width": 191,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "night/time",
+      "title": "night/time",
+      "width": 194,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "shake the audience",
+      "title": "shake the audience",
+      "width": 191,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "family/gospel",
+      "title": "family/gospel",
+      "width": 192,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "romantic",
+      "title": "romantic",
+      "width": 190,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "communication",
+      "title": "communication",
+      "width": 189,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "obscene",
+      "title": "obscene",
+      "width": 184,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "music",
+      "title": "music",
+      "width": 193,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "movement/places",
+      "title": "movement/places",
+      "width": 185,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "light/visual perceptions",
+      "title": "light/visual perceptions",
+      "width": 207,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "family/spiritual",
+      "title": "family/spiritual",
+      "width": 191,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "like/girls",
+      "title": "like/girls",
+      "width": 191,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "sadness",
+      "title": "sadness",
+      "width": 186,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "feelings",
+      "title": "feelings",
+      "width": 186,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "danceability",
+      "title": "danceability",
+      "width": 168,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "loudness",
+      "title": "loudness",
+      "width": 165,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "acousticness",
+      "title": "acousticness",
+      "width": 167,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "instrumentalness",
+      "title": "instrumentalness",
+      "width": 115,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "valence",
+      "title": "valence",
+      "width": 166,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "energy",
+      "title": "energy",
+      "width": 169,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "topic",
+      "title": "topic",
+      "width": 90,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "age",
+      "title": "age",
+      "width": 154,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    }
+  ],
+  "sort": [
+    {
+      "column": "len",
+      "dir": "asc"
+    }
+  ]
+}

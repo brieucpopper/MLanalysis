@@ -1,0 +1,40 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 52
+    },
+    {
+      "field": "﻿Index",
+      "title": "﻿Index",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 92
+    },
+    {
+      "field": "Height(Inches)",
+      "title": "Height(Inches)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 153
+    },
+    {
+      "field": "Weight(Pounds)",
+      "title": "Weight(Pounds)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 1012
+    }
+  ]
+}

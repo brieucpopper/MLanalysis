@@ -1,0 +1,46 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 52
+    },
+    {
+      "field": "﻿Height",
+      "title": "﻿Height",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 100
+    },
+    {
+      "field": "Weight",
+      "title": "Weight",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 103
+    },
+    {
+      "field": "Sex",
+      "title": "Sex",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1054
+    }
+  ],
+  "sort": [
+    {
+      "column": "﻿Height",
+      "dir": "desc"
+    }
+  ]
+}

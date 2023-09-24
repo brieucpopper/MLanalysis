@@ -1,0 +1,27 @@
+{
+  "fields": [
+    {
+      "name": "height",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "weight",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "age",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "male",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

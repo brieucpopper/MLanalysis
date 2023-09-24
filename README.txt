@@ -1,0 +1,217 @@
+ this is bpopper3 (my GTid) README file, go to github.com/brieucpoper/MLanalysis      
+You will need a python conda env to run my code
+below this is the environment.yml (starts on line 5 ends line 204)
+Not all packages are used, but basically it's Python 3.11.5 with tensorflow, numpy, sklearn, matplotlib, pandas (read after for the rest of the README)
+name: tf
+channels:
+  - microsoft
+  - conda-forge
+  - defaults
+dependencies:
+  - _py-xgboost-mutex=2.0=cpu_0
+  - _tflow_select=2.2.0=eigen
+  - abseil-cpp=20211102.0=he9d5cce_0
+  - absl-py=1.4.0=py311hecd8cb5_0
+  - aiohttp=3.8.5=py311h6c40b1e_0
+  - aiosignal=1.2.0=pyhd3eb1b0_0
+  - appnope=0.1.3=pyhd8ed1ab_0
+  - asttokens=2.4.0=pyhd8ed1ab_0
+  - astunparse=1.6.3=py_0
+  - async-timeout=4.0.2=py311hecd8cb5_0
+  - attrs=22.1.0=py311hecd8cb5_0
+  - backcall=0.2.0=pyh9f0ad1d_0
+  - backports=1.0=pyhd8ed1ab_3
+  - backports.functools_lru_cache=1.6.5=pyhd8ed1ab_0
+  - blas=1.0=mkl
+  - blinker=1.4=py311hecd8cb5_0
+  - bottleneck=1.3.5=py311hb9e55a9_0
+  - brotli=1.0.9=hca72f7f_7
+  - brotli-bin=1.0.9=hca72f7f_7
+  - brotlipy=0.7.0=py311h6c40b1e_1002
+  - bzip2=1.0.8=h1de35cc_0
+  - c-ares=1.19.1=h6c40b1e_0
+  - ca-certificates=2023.7.22=h8857fd0_0
+  - cachetools=4.2.2=pyhd3eb1b0_0
+  - certifi=2023.7.22=pyhd8ed1ab_0
+  - cffi=1.15.1=py311h6c40b1e_3
+  - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - click=8.0.4=py311hecd8cb5_0
+  - comm=0.1.4=pyhd8ed1ab_0
+  - contourpy=1.0.5=py311ha357a0b_0
+  - cryptography=41.0.3=py311ha2381d6_0
+  - cycler=0.11.0=pyhd3eb1b0_0
+  - debugpy=1.6.7=py311hcec6c5f_0
+  - decorator=5.1.1=pyhd8ed1ab_0
+  - exceptiongroup=1.1.3=pyhd8ed1ab_0
+  - executing=1.2.0=pyhd8ed1ab_0
+  - flatbuffers=2.0.0=h23ab428_0
+  - fonttools=4.25.0=pyhd3eb1b0_0
+  - freetype=2.12.1=hd8bbffd_0
+  - frozenlist=1.3.3=py311h6c40b1e_0
+  - gast=0.4.0=pyhd3eb1b0_0
+  - giflib=5.2.1=h6c40b1e_3
+  - google-auth=2.22.0=py311hecd8cb5_0
+  - google-auth-oauthlib=0.5.2=py311hecd8cb5_0
+  - google-pasta=0.2.0=pyhd3eb1b0_0
+  - grpc-cpp=1.48.2=h3afe56f_0
+  - grpcio=1.48.2=py311h3afe56f_0
+  - h5py=3.9.0=py311hdb7e403_0
+  - hdf5=1.12.1=h2b2ad87_2
+  - htmlmin=0.1.12=pyhd3eb1b0_1
+  - icu=68.1=h23ab428_0
+  - idna=3.4=py311hecd8cb5_0
+  - imagehash=4.3.1=py311hecd8cb5_0
+  - importlib-metadata=6.8.0=pyha770c72_0
+  - importlib_metadata=6.8.0=hd8ed1ab_0
+  - intel-openmp=2023.1.0=ha357a0b_43547
+  - ipykernel=6.25.2=pyh1050b4e_0
+  - ipython=8.15.0=pyh31c8845_0
+  - jedi=0.19.0=pyhd8ed1ab_0
+  - jinja2=3.1.2=py311hecd8cb5_0
+  - joblib=1.2.0=py311hecd8cb5_0
+  - jpeg=9e=h6c40b1e_1
+  - jupyter_client=8.3.1=pyhd8ed1ab_0
+  - jupyter_core=5.3.1=py311h6eed73b_0
+  - keras=2.12.0=py311_0
+  - keras-preprocessing=1.1.2=pyhd3eb1b0_0
+  - kiwisolver=1.4.4=py311hcec6c5f_0
+  - krb5=1.20.1=hdba6334_1
+  - lcms2=2.12=hf1fd2bf_0
+  - lerc=3.0=he9d5cce_0
+  - libbrotlicommon=1.0.9=hca72f7f_7
+  - libbrotlidec=1.0.9=hca72f7f_7
+  - libbrotlienc=1.0.9=hca72f7f_7
+  - libcurl=8.2.1=ha585b31_0
+  - libcxx=14.0.6=h9765a3e_0
+  - libdeflate=1.17=hb664fd8_0
+  - libedit=3.1.20221030=h6c40b1e_0
+  - libev=4.33=h9ed2024_1
+  - libffi=3.4.4=hecd8cb5_0
+  - libgfortran=5.0.0=11_3_0_hecd8cb5_28
+  - libgfortran5=11.3.0=h9dfd629_28
+  - libnghttp2=1.52.0=h1c88b7d_1
+  - libpng=1.6.39=h6c40b1e_0
+  - libprotobuf=3.20.3=hfff2838_0
+  - libsodium=1.0.18=hbcb3906_1
+  - libssh2=1.10.0=hdb2fb19_2
+  - libtiff=4.5.1=hcec6c5f_0
+  - libwebp=1.2.4=hf6ce154_1
+  - libwebp-base=1.2.4=h6c40b1e_1
+  - libxgboost=1.7.3=hcec6c5f_0
+  - llvm-openmp=14.0.6=h0dcd299_0
+  - lz4-c=1.9.4=hcec6c5f_0
+  - markdown=3.4.1=py311hecd8cb5_0
+  - markupsafe=2.1.1=py311h6c40b1e_0
+  - matplotlib-base=3.6.2=py311h220de94_0
+  - matplotlib-inline=0.1.6=pyhd8ed1ab_0
+  - mkl=2023.1.0=h8e150cf_43559
+  - mkl-service=2.4.0=py311h6c40b1e_1
+  - mkl_fft=1.3.6=py311hdb55bb0_1
+  - mkl_random=1.2.2=py311hdb55bb0_1
+  - multidict=6.0.2=py311h6c40b1e_0
+  - multimethod=1.9.1=py311hecd8cb5_0
+  - munkres=1.1.4=py_0
+  - ncurses=6.4=hcec6c5f_0
+  - nest-asyncio=1.5.6=pyhd8ed1ab_0
+  - networkx=3.1=py311hecd8cb5_0
+  - numexpr=2.8.4=py311h728a8a3_1
+  - numpy=1.23.5=py311h728a8a3_1
+  - numpy-base=1.23.5=py311h53bf9ac_1
+  - oauthlib=3.2.2=py311hecd8cb5_0
+  - openssl=1.1.1w=h8a1eda9_0
+  - opt_einsum=3.3.0=pyhd3eb1b0_1
+  - packaging=23.1=py311hecd8cb5_0
+  - pandas=1.5.3=py311hc5848a5_0
+  - parso=0.8.3=pyhd8ed1ab_0
+  - patsy=0.5.3=py311hecd8cb5_0
+  - pexpect=4.8.0=pyh1a96a4e_2
+  - phik=0.12.3=py311ha357a0b_0
+  - pickleshare=0.7.5=py_1003
+  - pillow=9.4.0=py311hcec6c5f_0
+  - pip=23.2.1=py311hecd8cb5_0
+  - platformdirs=3.10.0=pyhd8ed1ab_0
+  - prompt-toolkit=3.0.39=pyha770c72_0
+  - prompt_toolkit=3.0.39=hd8ed1ab_0
+  - protobuf=3.20.3=py311hcec6c5f_0
+  - psutil=5.9.5=py311h5547dcb_0
+  - ptyprocess=0.7.0=pyhd3deb0d_0
+  - pure_eval=0.2.2=pyhd8ed1ab_0
+  - py-xgboost=1.7.3=py311hecd8cb5_0
+  - pyasn1=0.4.8=pyhd3eb1b0_0
+  - pyasn1-modules=0.2.8=py_0
+  - pycparser=2.21=pyhd3eb1b0_0
+  - pydantic=1.10.8=py311h6c40b1e_0
+  - pygments=2.16.1=pyhd8ed1ab_0
+  - pyjwt=2.4.0=py311hecd8cb5_0
+  - pyopenssl=23.2.0=py311hecd8cb5_0
+  - pyparsing=3.0.9=py311hecd8cb5_0
+  - pysocks=1.7.1=py311hecd8cb5_0
+  - python=3.11.5=h1fd4e5f_0
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python-flatbuffers=2.0=pyhd3eb1b0_0
+  - python_abi=3.11=2_cp311
+  - pytz=2022.7=py311hecd8cb5_0
+  - pywavelets=1.4.1=py311h6c40b1e_0
+  - pyyaml=6.0=py311h6c40b1e_1
+  - pyzmq=24.0.1=py311habfacb3_1
+  - re2=2022.04.01=he9d5cce_0
+  - readline=8.2=hca72f7f_0
+  - requests=2.28.1=py311hecd8cb5_1
+  - requests-oauthlib=1.3.0=py_0
+  - rsa=4.7.2=pyhd3eb1b0_1
+  - scikit-learn=1.2.2=py311hcec6c5f_0
+  - scipy=1.9.3=py311h224febf_2
+  - seaborn=0.12.2=py311hecd8cb5_0
+  - setuptools=68.0.0=py311hecd8cb5_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - snappy=1.1.9=he9d5cce_0
+  - sqlite=3.41.2=h6c40b1e_0
+  - stack_data=0.6.2=pyhd8ed1ab_0
+  - statsmodels=0.13.5=py311h6c40b1e_1
+  - tangled-up-in-unicode=0.2.0=py311hecd8cb5_0
+  - tbb=2021.8.0=ha357a0b_0
+  - tensorboard=2.12.1=py311_0
+  - tensorboard-data-server=0.7.0=py311h7242b5c_0
+  - tensorboard-plugin-wit=1.6.0=py_0
+  - tensorflow=2.12.0=eigen_py311h4c7017d_0
+  - tensorflow-base=2.12.0=eigen_py311hbf87084_0
+  - tensorflow-estimator=2.12.0=py311_0
+  - termcolor=2.1.0=py311hecd8cb5_0
+  - threadpoolctl=2.2.0=pyh0d69192_0
+  - tk=8.6.12=h5d9f67b_0
+  - tornado=6.3.3=py311h2725bcf_0
+  - tqdm=4.64.1=py311hecd8cb5_0
+  - traitlets=5.10.0=pyhd8ed1ab_0
+  - typeguard=2.13.3=py311hecd8cb5_0
+  - typing-extensions=4.7.1=py311hecd8cb5_0
+  - typing_extensions=4.7.1=py311hecd8cb5_0
+  - tzdata=2023c=h04d1e81_0
+  - urllib3=1.26.16=py311hecd8cb5_0
+  - visions=0.7.5=py311hecd8cb5_0
+  - wcwidth=0.2.6=pyhd8ed1ab_0
+  - werkzeug=2.2.3=py311hecd8cb5_0
+  - wheel=0.35.1=pyhd3eb1b0_0
+  - wrapt=1.14.1=py311h6c40b1e_0
+  - xgboost=1.7.3=py311hecd8cb5_0
+  - xz=5.4.2=h6c40b1e_0
+  - yaml=0.2.5=haf1e3a3_0
+  - yarl=1.8.1=py311h6c40b1e_0
+  - ydata-profiling=4.1.1=py311hecd8cb5_0
+  - zeromq=4.3.4=he49afe7_1
+  - zipp=3.16.2=pyhd8ed1ab_0
+  - zlib=1.2.13=h4dc903c_0
+  - zstd=1.5.5=hc035e20_0
+prefix: /Users/brieucpopper/miniconda3/envs/tf
+
+
+Then there's the databases, you can get them on this github repo : 
+Original links are https://www.tensorflow.org/datasets/catalog/howell and https://data.mendeley.com/datasets/3t9vbwxgr5/2
+
+github.com/brieucpopper/MLanalysis
+The code to run is basically two Jupyter notebooks, musicccc.ipynb for the "complex dataset" and "SexWeightHeight.ipynb" for the other one.
+Then depending on what you want to do exactly you can run different cells, change parameters, etc...
+
+Everything won't work if you just run cells in any order...
+These two bits of code were everything used to create the final project report.
+
+Brieuc POPPER (bpopper3 GTid)
