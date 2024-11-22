@@ -25,11 +25,16 @@ older than 1990. More details here : https://data.mendeley.com/datasets/3t9vbwxg
 
 
 
-We worked on testing and comparing Decision Trees, Boosting, SVMs, Artificial Deep Neural Networks and k-Nearest neigbors.
+
+
+
+The main classification task for this complicated Music dataset was to predict whethere a song was from before 1990, or after.
+Several supervised learning methods were tested : Decision Trees, Boosting, SVMs, Artificial Deep Neural Networks and k-Nearest neigbors.
+
 
 <img width="595" alt="image" src="https://github.com/brieucpopper/MLanalysis/assets/102361078/0e20b827-71d8-41ce-bfc6-d7a8caf0ce9d">
 
-Above is an example of one of the multiple plots that were generated and analyzed as part of this assignement.
+Above is an example of one of the multiple plots that were generated and analyzed as part of this assignement. This specific one shows how predicting if a song is from before 1990 based on the year of release of the k-nearest-neighbors from the training dataset performs.
 
 As for unsupervized learning (repo : https://github.com/brieucpopper/unsupLearning)
 
