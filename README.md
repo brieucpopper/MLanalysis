@@ -38,4 +38,7 @@ Above is an example of one of the multiple plots that were generated and analyze
 
 As for unsupervized learning (repo : https://github.com/brieucpopper/unsupLearning)
 
-We worked on differnet clustering techniques, and measuring how good clusters are with metrics, also on dimension reduction with PCA, on ICA (independent component analysis) and the cocktail problem, random projection.
+We worked on 
+ - differnet clustering techniques and measuring how good clusters are with appropriate metrics
+ - dimension reduction with PCA, on ICA (independent component analysis)
+ - The cocktail problem (source separation)
